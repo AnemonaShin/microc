@@ -29,5 +29,5 @@ public class perfil {
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JoinTable(name = "User")
     @JoinColumn(table = "User", name = "id_u")
-    private int IDU;
+    private user user;
 }
